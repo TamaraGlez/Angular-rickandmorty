@@ -1,0 +1,18 @@
+.boxNav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(142, 126, 200);
+  height: 30px;
+  align-content: center;
+  border-bottom: 3px solid white;
+  &-link {
+    color: white;
+    padding-right: 16px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+
+}

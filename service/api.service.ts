@@ -5,10 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ApiService {
-
-
-
-
+  // es importante que en app.module esté importado
   constructor(private http: HttpClient ) { }
 
   getDigimon(){
